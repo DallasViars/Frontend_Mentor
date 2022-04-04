@@ -8,30 +8,37 @@
     font-family: "Outfit", sans-serif;
     font-size: 15px;
     background: var(--ltgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   p {
     color: var(--grayblue);
   }
-  a {
-    color: black;
-  }
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
   .attribution a {
     color: var(--grayblue);
   }
+  a:hover, a:focus {
+    color: black;
+  }
+  a:active {
+      color: red;
+  }
+  .attribution {
+    font-size: 0.75rem;
+  }
+
   img {
-    border-radius: 20px;
+    border-radius: 1.25rem;
   }
   .container {
     background: white;
-    max-width: 350px;
-    margin: 0 auto;
+    max-width: 24rem;
     padding: 1rem;
-    border-radius: 30px;
+    border-radius: 2rem;
   }
   .resp {
     width: 100%;
