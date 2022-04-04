@@ -1,0 +1,40 @@
+:root {
+    --ltgray: #d6e2f0;
+    --grayblue: #7b879d;
+    --dkblue: #1f3251;
+  }
+  
+  body {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    background: var(--ltgray);
+  }
+  
+  p {
+    color: var(--grayblue);
+  }
+  a {
+    color: black;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: var(--grayblue);
+  }
+  img {
+    border-radius: 20px;
+  }
+  .container {
+    background: white;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+  .resp {
+    width: 100%;
+    height: auto;
+  }
+  
