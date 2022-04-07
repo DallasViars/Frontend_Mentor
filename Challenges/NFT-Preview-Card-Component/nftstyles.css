@@ -1,0 +1,87 @@
+:root {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --vdkblue-main: hsl(217, 54%, 11%);
+    --vdkblue-card: hsl(216, 50%, 16%);
+    --vdkblue-line: hsl(215, 32%, 27%)
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--vdkblue-main);
+}
+h1 {
+    color: white;
+}
+a {
+    cursor: pointer;
+}
+a:hover, a:focus {
+    color: var(--cyan);
+}
+a:active {
+    color: var(--softblue);
+}
+.pointer {
+    cursor: pointer;
+}
+.rmargin {
+    margin-right: 1rem;
+}
+.tmargin {
+    margin-top: 0.75rem;
+}
+.bmargin {
+    margin-bottom: 0;
+}
+p {
+    margin-bottom: 0;
+}
+.cyan {
+    color: var(--cyan);
+}
+.softblue {
+    color: var(--softblue);
+}
+.container {
+    max-width: 360px;
+    padding: 3rem;
+    border-radius: 2rem;
+    background: var(--vdkblue-card);
+}
+.resp {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+.sm-img {
+    max-height: 2rem;
+    width: auto;
+}
+.whiteroundborder {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.flex {
+    display: flex;
+}
+.row {
+    flex-direction: row;
+}
+.col {
+    flex-direction: column;
+}
+.fjcc {
+    justify-content: center;
+}
+.fiac {
+    align-items: center;
+}
+.fsb {
+    justify-content: space-between;
+}
